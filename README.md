@@ -1,7 +1,10 @@
 # RUN Test
 npm install -g webdriver-manager
+
 webdriver-manager update
+
 webdriver-manager start
+
 protractor cucumber.conf.js 
 
 # INSTRUCTIONS
