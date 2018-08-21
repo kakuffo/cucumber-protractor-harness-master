@@ -5,8 +5,8 @@ Feature: Angular Task List
   So that I can keep track of my tasks
 
   Scenario: Protractor and Cucumber Test
-    Given I go to "https://angularjs.org/"
-    When I add "Be Awesome" in the task field
+    Given I go to "https://the-internet.herokuapp.com"
+    When I add "Challenging DOM" in the task field
     And I click the add button
     Then I should see my new task in the list
 
