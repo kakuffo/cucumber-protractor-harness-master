@@ -14,7 +14,7 @@
         "emitterEvent": "testPass",
         "name": "Given I go to \"https://the-internet.herokuapp.com\"",
         "category": "Navigate to https://the-internet.herokuapp.com/: TEST 1",
-        "durationMillis": 2,
+        "durationMillis": 3,
         "sourceLocation": {
           "filePath": "/Users/kwameakuffo/workspace/cucumber-protractor-harness-master/features/EDF.feature",
           "line": 7,
@@ -33,6 +33,6 @@
         }
       }
     ],
-    "duration": 3
+    "duration": 4
   }
 ]

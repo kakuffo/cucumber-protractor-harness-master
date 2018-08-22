@@ -13,13 +13,15 @@ defineSupportCode(function({Given, When, Then}) {
   Given('I go to {stringInDoubleQuotes}', function (site) {
     browser.waitForAngularEnabled(false);
     expect(browser.get(site));
+    //expect(browser.getCurrentUrl().equal('https://the-internet.herokuapp.com/'));
 
   });
 
        When('I click {stringInDoubleQuotes}', function (text) {
          // Write code here that turns the phrase above into concrete actions
-
-        expect(element(by.linkText(text)).click());
+var doge = element(by.partialLinkText(text));
+doge.click();
+expect(browser.p)
        });
 
 
