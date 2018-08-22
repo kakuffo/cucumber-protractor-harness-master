@@ -1,7 +1,7 @@
 exports.config = {
   seleniumAddress: 'http://127.0.0.1:4444/wd/hub',
-  getPageTimeout: 60000,
-  allScriptsTimeout: 500000,
+  //getPageTimeout: 60000,
+  //allScriptsTimeout: 15000,
   framework: 'custom',
   resultJsonOutputFile: 'report.json',
   // path relative to the current config file
