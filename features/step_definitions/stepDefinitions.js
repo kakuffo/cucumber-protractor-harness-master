@@ -16,12 +16,11 @@ defineSupportCode(function({Given, When, Then}) {
 
   });
 
-       When('I click {stringInDoubleQuotes}', function (text) {
+  When('I click {stringInDoubleQuotes}', function (text) {
 
+     });
 
-       });
-
-       Then('I am shown {stringInDoubleQuotes} page title', function (mytext) {
+  Then('I am shown {stringInDoubleQuotes} page title', function (mytext) {
 
        });
 
