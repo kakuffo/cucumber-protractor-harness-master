@@ -18,11 +18,14 @@ defineSupportCode(function({Given, When, Then}) {
   });
 
        When('I click {stringInDoubleQuotes}', function (text) {
-           browser.waitForAngularEnabled(false);
-         // Write code here that turns the phrase above into concrete actions
-var doge = element(by.partialLinkText(text));
 
        });
+
+       Then('I am shown {stringInDoubleQuotes} page title', function (mytext) {
+
+       });
+
+
 
 
 });
