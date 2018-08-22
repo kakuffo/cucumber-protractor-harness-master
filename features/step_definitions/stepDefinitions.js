@@ -13,11 +13,11 @@ defineSupportCode(function({Given, When, Then}) {
   Given('I go to {stringInDoubleQuotes}', function (site) {
     browser.waitForAngularEnabled(false);
     expect(browser.get(site));
-    //expect(browser.getCurrentUrl().equal('https://the-internet.herokuapp.com/'));
 
   });
 
        When('I click {stringInDoubleQuotes}', function (text) {
+
 
        });
 
