@@ -5,7 +5,7 @@ Feature: Navigate to https://the-internet.herokuapp.com/
 
   Scenario: TEST 1
     Given I go to "https://the-internet.herokuapp.com"
-    When I click "Challenging DOM"
+    When I click "Challenging DmmmmmOM"
 
 
 

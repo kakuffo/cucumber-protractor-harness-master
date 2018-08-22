@@ -23,7 +23,7 @@
       },
       {
         "emitterEvent": "testPass",
-        "name": "When I click \"Challenging DOM\"",
+        "name": "When I click \"Challenging DmmmmmOM\"",
         "category": "Navigate to https://the-internet.herokuapp.com/: TEST 1",
         "durationMillis": 1,
         "sourceLocation": {

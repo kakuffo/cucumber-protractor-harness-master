@@ -38,3 +38,36 @@ POST to the http://dummy.restapiexample.com/ create route and verify you receive
 
 # BONUS:
 Do you have a tech blog or any pre-existing, public projects you'd like to show us? Please include links to them in your README. Also feel free to include tests for other pages of "the-internet" or the dummy rest API example routes you feel would support your application.
+
+# Package details:
+```javascript
+{
+  "name": "cucumber-protractor-harness",
+  "version": "1.0.0",
+  "description": "package for a cucumber-protractor harness",
+  "main": "cucumber.conf.js",
+  "dependencies": {
+    "xvfb": "^0.2.3"
+  },
+  "devDependencies": {
+    "chai": "^4.1.0",
+    "chai-as-promised": "^7.1.1",
+    "chai-string": "^1.2.0",
+    "cucumber": "^2.3.1",
+    "gulp": "^3.9.1",
+    "gulp-angular-protractor": "^1.0.0",
+    "protractor": "^5.1.1",
+    "protractor-cucumber-framework": "^3.1.0"
+  },
+  "scripts": {
+    "test": "protractor"
+  },
+  "keywords": [
+    "protractor",
+    "cucumber.js"
+  ],
+  "author": "Kwame Akuffo",
+  "license": "MIT"
+}
+```
+
