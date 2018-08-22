@@ -11,6 +11,8 @@ module.exports = {
     ButtonText01: 'start',
     ButtonText02: 'Start',
     ContentLocator: '#content > div > h4',
+    ExpectedText02: 'Hello World!',
+    FinishElelent: '#finish',
   }
 
 

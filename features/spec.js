@@ -1,7 +1,5 @@
 var page = require('../features/pages/homePage.js');
-
 describe('Test 1', function() {
-
  it('Test 1', function() {
     browser.waitForAngularEnabled(false);
     browser.get('https://the-internet.herokuapp.com');
@@ -9,7 +7,6 @@ describe('Test 1', function() {
     expect(EDFtitle.getText()).toEqual(page.EDFHomepage.ChallengingDOMText);
     EDFtitle.click();
     });
-
  it('Test 2', function() {
     browser.get('https://the-internet.herokuapp.com');
     var titleEDF= element(by.linkText(page.EDFHomepage.DynamicLoading));
@@ -23,17 +20,12 @@ describe('Test 1', function() {
     expect(EDFbutton.getText()).toEqual(page.EDFHomepage.ButtonText02);
     EDFbutton.click();
   });
-
  it('Test 3', function() {
     var Subtitle= element(by.css(page.EDFHomepage.ContentLocator));
     expect(Subtitle.getText()).toEqual(page.EDFHomepage.ExpectedText01);
     var button = element(by.buttonText(page.EDFHomepage.ButtonText02));
     button.click();
     var EDFC = protractor.ExpectedConditions;
-    browser.wait(EDFC.textToBePresentInElement($('#finish'), 'Hello World!'), 50000);
-
+    browser.wait(EDFC.textToBePresentInElement($(page.EDFHomepage.FinishElelent), page.EDFHomepage.ExpectedText02), 50000);
   });
-
-
-
 });
