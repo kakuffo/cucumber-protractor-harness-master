@@ -4,6 +4,9 @@
     "assertions": [
       {
         "passed": true
+      },
+      {
+        "passed": true
       }
     ],
     "events": [
@@ -11,10 +14,21 @@
         "emitterEvent": "testPass",
         "name": "Given I go to \"https://the-internet.herokuapp.com\"",
         "category": "Navigate to https://the-internet.herokuapp.com/: TEST 1",
-        "durationMillis": 3,
+        "durationMillis": 2,
         "sourceLocation": {
           "filePath": "/Users/kwameakuffo/workspace/cucumber-protractor-harness-master/features/EDF.feature",
           "line": 7,
+          "column": 1
+        }
+      },
+      {
+        "emitterEvent": "testPass",
+        "name": "When I click \"Challenging DOM\"",
+        "category": "Navigate to https://the-internet.herokuapp.com/: TEST 1",
+        "durationMillis": 1,
+        "sourceLocation": {
+          "filePath": "/Users/kwameakuffo/workspace/cucumber-protractor-harness-master/features/EDF.feature",
+          "line": 8,
           "column": 1
         }
       }

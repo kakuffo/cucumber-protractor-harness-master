@@ -12,10 +12,15 @@ defineSupportCode(function({Given, When, Then}) {
 
   Given('I go to {stringInDoubleQuotes}', function (site) {
     browser.waitForAngularEnabled(false);
-    //browser.get(site);
     expect(browser.get(site));
 
   });
+
+       When('I click {stringInDoubleQuotes}', function (text) {
+         // Write code here that turns the phrase above into concrete actions
+
+        expect(element(by.linkText(text)).click());
+       });
 
 
 });
