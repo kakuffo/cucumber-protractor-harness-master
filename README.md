@@ -58,6 +58,7 @@ Do you have a tech blog or any pre-existing, public projects you'd like to show 
     "cucumber": "^2.3.1",
     "gulp": "^3.9.1",
     "gulp-angular-protractor": "^1.0.0",
+    "jasmine-reporters": "^2.3.2",
     "protractor": "^5.1.1",
     "protractor-cucumber-framework": "^3.1.0"
   },
