@@ -1,6 +1,5 @@
 'use strict';
 module.exports = {
-
   EDFHomepage: {
     taskList: element(by.model('todoList.todoText')),
     taskButton: element(by.css('[value="add"]')),
@@ -14,6 +13,4 @@ module.exports = {
     ExpectedText02: 'Hello World!',
     FinishElelent: '#finish',
   }
-
-
 };
