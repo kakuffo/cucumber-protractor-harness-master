@@ -1,24 +1,17 @@
 'use strict';
 module.exports = {
 
-  angularHomepage: {
+  EDFHomepage: {
     taskList: element(by.model('todoList.todoText')),
     taskButton: element(by.css('[value="add"]')),
-    todoList: element.all(by.repeater('todo in todoList.todos'))
-  },
-
-  go: function(site) {
-    browser.get(site);
-  },
-
-  addTask: function(task) {
-    var angular = this.angularHomepage;
-    angular.taskList.sendKeys(task);
-  },
-
-  submitTask: function() {
-    var angular = this.angularHomepage;
-    angular.taskButton.click();
+    todoList: element.all(by.repeater('todo in todoList.todos')),
+    ChallengingDOMText: 'Challenging DOM',
+    DynamicLoading: 'Dynamic Loading',
+    ExpectedText01: 'Example 2: Element rendered after the fact',
+    ButtonText01: 'start',
+    ButtonText02: 'Start',
+    ContentLocator: '#content > div > h4',
   }
+
 
 };

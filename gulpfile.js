@@ -9,7 +9,7 @@ var gulp = require('gulp'),
 // Setting up the test task
 gulp.task('protractor', function(callback) {
   gulp
-    .src(['features/*.feature'])
+    .src(['../features/spec.js'])
     .pipe(gulpProtractorAngular({
       'configFile': 'cucumber.conf.js',
       'debug': true,

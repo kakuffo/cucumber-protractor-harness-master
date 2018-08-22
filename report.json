@@ -7,6 +7,9 @@
       },
       {
         "passed": true
+      },
+      {
+        "passed": true
       }
     ],
     "events": [
@@ -23,16 +26,27 @@
       },
       {
         "emitterEvent": "testPass",
-        "name": "When I click \"Challenging DmmmmmOM\"",
+        "name": "When I click \"The Internet\"",
         "category": "Navigate to https://the-internet.herokuapp.com/: TEST 1",
-        "durationMillis": 1,
+        "durationMillis": 6,
         "sourceLocation": {
           "filePath": "/Users/kwameakuffo/workspace/cucumber-protractor-harness-master/features/EDF.feature",
           "line": 8,
           "column": 1
         }
+      },
+      {
+        "emitterEvent": "testPass",
+        "name": "Then I am shown \"Challenging DOM\" page title",
+        "category": "Navigate to https://the-internet.herokuapp.com/: TEST 1",
+        "durationMillis": 0,
+        "sourceLocation": {
+          "filePath": "/Users/kwameakuffo/workspace/cucumber-protractor-harness-master/features/EDF.feature",
+          "line": 9,
+          "column": 1
+        }
       }
     ],
-    "duration": 4
+    "duration": 9
   }
 ]

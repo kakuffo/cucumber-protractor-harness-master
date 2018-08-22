@@ -1,35 +1,31 @@
 exports.config = {
-  seleniumAddress: 'http://127.0.0.1:4444/wd/hub',
-  //getPageTimeout: 60000,
-  //allScriptsTimeout: 15000,
-  framework: 'custom',
-  resultJsonOutputFile: 'report.json',
-  // path relative to the current config file
-  frameworkPath: require.resolve('protractor-cucumber-framework'),
-  capabilities: {
-    browserName: 'chrome',
-    'chromeOptions': {
-      args: ['--no-sandbox']
+    specs: ['features/spec.js'],
+    framework: 'jasmine2',
+
+    jasmineNodeOpts: {
+        showColors: true,
+        defaultTimeoutInterval: 30000
+    },
+
+    capabilities: {
+        browserName: 'chrome'
+    },
+
+    onPrepare: function () {
+        var jasmineReporters = require('jasmine-reporters');
+        jasmine.getEnv().addReporter(new jasmineReporters.JUnitXmlReporter({
+            consolidateAll: true,
+            filePrefix: 'xmloutput',
+            savePath: 'EDFtestresults',
+            takeScreenshots: true,
+            takeScreenshotsOnlyOnFailures: true,
+            showPassed: true,
+            cleanDestination: false,
+            fileNamePrefix: 'Prefix',
+            fixedScreenshotName: true
+
+        }));
+
+
     }
-  },
-
-  // Spec patterns are relative to this directory.
-  specs: [
-    'features/*.feature'
-  ],
-
-  tags: [
-
-
-  ],
-
-  baseURL: 'http://localhost:8080/',
-
-  cucumberOpts: {
-    require: 'features/step_definitions/*.js',
-    tags: true,
-    format: 'pretty',
-    profile: false,
-    'no-source': true
-  }
-};
+}
