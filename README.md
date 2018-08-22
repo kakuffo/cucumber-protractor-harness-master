@@ -78,13 +78,13 @@ var page = require('../features/pages/homePage.js');
 describe('Test 1', function() {
  it('Test 1', function() {
     browser.waitForAngularEnabled(false);
-    browser.get('https://the-internet.herokuapp.com');
+    browser.get(page.EDFHomepage.EDFHome);
     var EDFtitle= element(by.linkText(page.EDFHomepage.ChallengingDOMText));
     expect(EDFtitle.getText()).toEqual(page.EDFHomepage.ChallengingDOMText);
     EDFtitle.click();
     });
  it('Test 2', function() {
-    browser.get('https://the-internet.herokuapp.com');
+    browser.get(page.EDFHomepage.EDFHome);
     var titleEDF= element(by.linkText(page.EDFHomepage.DynamicLoading));
     expect(titleEDF.getText()).toEqual(page.EDFHomepage.DynamicLoading);
     titleEDF.click();

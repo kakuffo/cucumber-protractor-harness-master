@@ -12,5 +12,6 @@ module.exports = {
     ContentLocator: '#content > div > h4',
     ExpectedText02: 'Hello World!',
     FinishElelent: '#finish',
+    EDFHome: 'https://the-internet.herokuapp.com'
   }
 };
