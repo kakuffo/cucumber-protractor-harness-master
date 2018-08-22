@@ -10,17 +10,17 @@ var expect = chai.expect;
 
 defineSupportCode(function({Given, When, Then}) {
 
-  Given('I go to {stringInDoubleQuotes}', function (site) {
+  Given('I go to {stringInDoubleQuotes}', function (site, callback) {
     browser.waitForAngularEnabled(false);
     expect(browser.get(site));
 
   });
 
-  When('I click {stringInDoubleQuotes}', function (text) {
+  When('I click {stringInDoubleQuotes}', function (text, callback) {
 
      });
 
-  Then('I am shown {stringInDoubleQuotes} page title', function (mytext) {
+  Then('I am shown {stringInDoubleQuotes} page title', function (mytext, callback) {
 
        });
 
