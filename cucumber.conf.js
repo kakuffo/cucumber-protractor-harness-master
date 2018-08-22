@@ -25,7 +25,5 @@ exports.config = {
             fixedScreenshotName: true
 
         }));
-
-
     }
 }
