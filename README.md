@@ -7,6 +7,8 @@ webdriver-manager start
 
 protractor cucumber.conf.js 
 
+Script to run can be included into gulp script, but not done for demo
+
 # INSTRUCTIONS
 Deliver a working test framework that aims towards "best practices". If you feel that there may be technical debt, future improvements, or any other comments you'd like us to know about then mention them in your README.
 Preferably, the results will be published to a public GitHub repository, but a ZIP is also fine.
