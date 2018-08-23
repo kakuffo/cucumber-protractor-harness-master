@@ -1,5 +1,5 @@
 var page = require('../features/pages/homePage.js');
-describe('Test 1', function() {
+describe('Research and Development and Innovation are at the heart of EDF Energy', function() {
  it('Test 1', function() {
     browser.waitForAngularEnabled(false);
     browser.get(page.EDFHomepage.EDFHome);

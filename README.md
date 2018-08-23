@@ -76,7 +76,7 @@ Do you have a tech blog or any pre-existing, public projects you'd like to show 
 # Solution details:
 ```javascript
 var page = require('../features/pages/homePage.js');
-describe('Test 1', function() {
+describe('Research and Development and Innovation are at the heart of EDF Energy', function() {
  it('Test 1', function() {
     browser.waitForAngularEnabled(false);
     browser.get(page.EDFHomepage.EDFHome);
