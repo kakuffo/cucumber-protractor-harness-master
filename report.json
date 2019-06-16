@@ -1,52 +1,752 @@
 [
   {
     "description": "TEST 1",
-    "assertions": [
-      {
-        "passed": true
-      },
-      {
-        "passed": true
-      },
-      {
-        "passed": true
-      }
-    ],
+    "assertions": [],
     "events": [
       {
         "emitterEvent": "testPass",
-        "name": "Given I go to \"https://the-internet.herokuapp.com\"",
-        "category": "Navigate to https://the-internet.herokuapp.com/: TEST 1",
-        "durationMillis": 3,
+        "name": "Given I am on the \"My Recipes Online\" page",
+        "category": "My Recipes Online Ingredients detail card: TEST 1",
         "sourceLocation": {
-          "filePath": "/Users/kwameakuffo/workspace/cucumber-protractor-harness-master/features/EDF.feature",
-          "line": 7,
+          "filePath": "/Users/kwameakuffo/workspace/protractorcucumber/cucumber-protractor-harness-master/features/EDFold.feature",
+          "line": 4,
+          "column": 1
+        }
+      },
+      {
+        "emitterEvent": "testPass",
+        "name": "And I am shown \"HOME\" tab",
+        "category": "My Recipes Online Ingredients detail card: TEST 1",
+        "sourceLocation": {
+          "filePath": "/Users/kwameakuffo/workspace/protractorcucumber/cucumber-protractor-harness-master/features/EDFold.feature",
+          "line": 5,
+          "column": 1
+        }
+      },
+      {
+        "emitterEvent": "testPass",
+        "name": "And I am shown \"INGREDIENTS\" tab",
+        "category": "My Recipes Online Ingredients detail card: TEST 1",
+        "sourceLocation": {
+          "filePath": "/Users/kwameakuffo/workspace/protractorcucumber/cucumber-protractor-harness-master/features/EDFold.feature",
+          "line": 6,
+          "column": 1
+        }
+      },
+      {
+        "emitterEvent": "testPass",
+        "name": "Given I go to \"https://the-internet.herokuapp.com\"",
+        "category": "My Recipes Online Ingredients detail card: TEST 1",
+        "sourceLocation": {
+          "filePath": "/Users/kwameakuffo/workspace/protractorcucumber/cucumber-protractor-harness-master/features/EDFold.feature",
+          "line": 9,
           "column": 1
         }
       },
       {
         "emitterEvent": "testPass",
         "name": "When I click \"The Internet\"",
-        "category": "Navigate to https://the-internet.herokuapp.com/: TEST 1",
-        "durationMillis": 6,
+        "category": "My Recipes Online Ingredients detail card: TEST 1",
         "sourceLocation": {
-          "filePath": "/Users/kwameakuffo/workspace/cucumber-protractor-harness-master/features/EDF.feature",
-          "line": 8,
+          "filePath": "/Users/kwameakuffo/workspace/protractorcucumber/cucumber-protractor-harness-master/features/EDFold.feature",
+          "line": 10,
           "column": 1
         }
       },
       {
         "emitterEvent": "testPass",
         "name": "Then I am shown \"Challenging DOM\" page title",
-        "category": "Navigate to https://the-internet.herokuapp.com/: TEST 1",
-        "durationMillis": 0,
+        "category": "My Recipes Online Ingredients detail card: TEST 1",
         "sourceLocation": {
-          "filePath": "/Users/kwameakuffo/workspace/cucumber-protractor-harness-master/features/EDF.feature",
-          "line": 9,
+          "filePath": "/Users/kwameakuffo/workspace/protractorcucumber/cucumber-protractor-harness-master/features/EDFold.feature",
+          "line": 11,
           "column": 1
         }
       }
     ],
-    "duration": 9
+    "duration": null
+  },
+  {
+    "description": "List Ingredients",
+    "assertions": [],
+    "events": [
+      {
+        "emitterEvent": "testPass",
+        "name": "Given I am on the \"My Recipes Online\" page",
+        "category": "My Recipes Online Ingredients detail card: List Ingredients",
+        "sourceLocation": {
+          "filePath": "/Users/kwameakuffo/workspace/protractorcucumber/cucumber-protractor-harness-master/features/EDFold.feature",
+          "line": 4,
+          "column": 1
+        }
+      },
+      {
+        "emitterEvent": "testPass",
+        "name": "And I am shown \"HOME\" tab",
+        "category": "My Recipes Online Ingredients detail card: List Ingredients",
+        "sourceLocation": {
+          "filePath": "/Users/kwameakuffo/workspace/protractorcucumber/cucumber-protractor-harness-master/features/EDFold.feature",
+          "line": 5,
+          "column": 1
+        }
+      },
+      {
+        "emitterEvent": "testPass",
+        "name": "And I am shown \"INGREDIENTS\" tab",
+        "category": "My Recipes Online Ingredients detail card: List Ingredients",
+        "sourceLocation": {
+          "filePath": "/Users/kwameakuffo/workspace/protractorcucumber/cucumber-protractor-harness-master/features/EDFold.feature",
+          "line": 6,
+          "column": 1
+        }
+      },
+      {
+        "emitterEvent": "testPass",
+        "name": "When I click the \"INGREDIENTS\" tab",
+        "category": "My Recipes Online Ingredients detail card: List Ingredients",
+        "sourceLocation": {
+          "filePath": "/Users/kwameakuffo/workspace/protractorcucumber/cucumber-protractor-harness-master/features/EDFold.feature",
+          "line": 14,
+          "column": 1
+        }
+      },
+      {
+        "emitterEvent": "testPass",
+        "name": "Then Ingredients List is shown",
+        "category": "My Recipes Online Ingredients detail card: List Ingredients",
+        "sourceLocation": {
+          "filePath": "/Users/kwameakuffo/workspace/protractorcucumber/cucumber-protractor-harness-master/features/EDFold.feature",
+          "line": 15,
+          "column": 1
+        }
+      },
+      {
+        "emitterEvent": "testPass",
+        "name": "And Ingredients items include \"cinnamon\"",
+        "category": "My Recipes Online Ingredients detail card: List Ingredients",
+        "sourceLocation": {
+          "filePath": "/Users/kwameakuffo/workspace/protractorcucumber/cucumber-protractor-harness-master/features/EDFold.feature",
+          "line": 16,
+          "column": 1
+        }
+      }
+    ],
+    "duration": null
+  },
+  {
+    "description": "List Ingredients",
+    "assertions": [],
+    "events": [
+      {
+        "emitterEvent": "testPass",
+        "name": "Given I am on the \"My Recipes Online\" page",
+        "category": "My Recipes Online Ingredients detail card: List Ingredients",
+        "sourceLocation": {
+          "filePath": "/Users/kwameakuffo/workspace/protractorcucumber/cucumber-protractor-harness-master/features/EDFold.feature",
+          "line": 4,
+          "column": 1
+        }
+      },
+      {
+        "emitterEvent": "testPass",
+        "name": "And I am shown \"HOME\" tab",
+        "category": "My Recipes Online Ingredients detail card: List Ingredients",
+        "sourceLocation": {
+          "filePath": "/Users/kwameakuffo/workspace/protractorcucumber/cucumber-protractor-harness-master/features/EDFold.feature",
+          "line": 5,
+          "column": 1
+        }
+      },
+      {
+        "emitterEvent": "testPass",
+        "name": "And I am shown \"INGREDIENTS\" tab",
+        "category": "My Recipes Online Ingredients detail card: List Ingredients",
+        "sourceLocation": {
+          "filePath": "/Users/kwameakuffo/workspace/protractorcucumber/cucumber-protractor-harness-master/features/EDFold.feature",
+          "line": 6,
+          "column": 1
+        }
+      },
+      {
+        "emitterEvent": "testPass",
+        "name": "When I click the \"INGREDIENTS\" tab",
+        "category": "My Recipes Online Ingredients detail card: List Ingredients",
+        "sourceLocation": {
+          "filePath": "/Users/kwameakuffo/workspace/protractorcucumber/cucumber-protractor-harness-master/features/EDFold.feature",
+          "line": 14,
+          "column": 1
+        }
+      },
+      {
+        "emitterEvent": "testPass",
+        "name": "Then Ingredients List is shown",
+        "category": "My Recipes Online Ingredients detail card: List Ingredients",
+        "sourceLocation": {
+          "filePath": "/Users/kwameakuffo/workspace/protractorcucumber/cucumber-protractor-harness-master/features/EDFold.feature",
+          "line": 15,
+          "column": 1
+        }
+      },
+      {
+        "emitterEvent": "testPass",
+        "name": "And Ingredients items include \"apple\"",
+        "category": "My Recipes Online Ingredients detail card: List Ingredients",
+        "sourceLocation": {
+          "filePath": "/Users/kwameakuffo/workspace/protractorcucumber/cucumber-protractor-harness-master/features/EDFold.feature",
+          "line": 16,
+          "column": 1
+        }
+      }
+    ],
+    "duration": null
+  },
+  {
+    "description": "Select an Ingredient from List of Ingredients",
+    "assertions": [],
+    "events": [
+      {
+        "emitterEvent": "testPass",
+        "name": "Given I am on the \"My Recipes Online\" page",
+        "category": "My Recipes Online Ingredients detail card: Select an Ingredient from List of Ingredients",
+        "sourceLocation": {
+          "filePath": "/Users/kwameakuffo/workspace/protractorcucumber/cucumber-protractor-harness-master/features/EDFold.feature",
+          "line": 4,
+          "column": 1
+        }
+      },
+      {
+        "emitterEvent": "testPass",
+        "name": "And I am shown \"HOME\" tab",
+        "category": "My Recipes Online Ingredients detail card: Select an Ingredient from List of Ingredients",
+        "sourceLocation": {
+          "filePath": "/Users/kwameakuffo/workspace/protractorcucumber/cucumber-protractor-harness-master/features/EDFold.feature",
+          "line": 5,
+          "column": 1
+        }
+      },
+      {
+        "emitterEvent": "testPass",
+        "name": "And I am shown \"INGREDIENTS\" tab",
+        "category": "My Recipes Online Ingredients detail card: Select an Ingredient from List of Ingredients",
+        "sourceLocation": {
+          "filePath": "/Users/kwameakuffo/workspace/protractorcucumber/cucumber-protractor-harness-master/features/EDFold.feature",
+          "line": 6,
+          "column": 1
+        }
+      },
+      {
+        "emitterEvent": "testPass",
+        "name": "When I click the \"INGREDIENTS\" tab",
+        "category": "My Recipes Online Ingredients detail card: Select an Ingredient from List of Ingredients",
+        "sourceLocation": {
+          "filePath": "/Users/kwameakuffo/workspace/protractorcucumber/cucumber-protractor-harness-master/features/EDFold.feature",
+          "line": 23,
+          "column": 1
+        }
+      },
+      {
+        "emitterEvent": "testPass",
+        "name": "Then Ingredients List is shown",
+        "category": "My Recipes Online Ingredients detail card: Select an Ingredient from List of Ingredients",
+        "sourceLocation": {
+          "filePath": "/Users/kwameakuffo/workspace/protractorcucumber/cucumber-protractor-harness-master/features/EDFold.feature",
+          "line": 24,
+          "column": 1
+        }
+      },
+      {
+        "emitterEvent": "testPass",
+        "name": "When I click \"cinnamon\" from the Ingredient List",
+        "category": "My Recipes Online Ingredients detail card: Select an Ingredient from List of Ingredients",
+        "sourceLocation": {
+          "filePath": "/Users/kwameakuffo/workspace/protractorcucumber/cucumber-protractor-harness-master/features/EDFold.feature",
+          "line": 25,
+          "column": 1
+        }
+      },
+      {
+        "emitterEvent": "testPass",
+        "name": "Then I am shown the Ingredients Detail Card",
+        "category": "My Recipes Online Ingredients detail card: Select an Ingredient from List of Ingredients",
+        "sourceLocation": {
+          "filePath": "/Users/kwameakuffo/workspace/protractorcucumber/cucumber-protractor-harness-master/features/EDFold.feature",
+          "line": 26,
+          "column": 1
+        }
+      },
+      {
+        "emitterEvent": "testPass",
+        "name": "And Ingredients Detail card shows \"cinnamon\"",
+        "category": "My Recipes Online Ingredients detail card: Select an Ingredient from List of Ingredients",
+        "sourceLocation": {
+          "filePath": "/Users/kwameakuffo/workspace/protractorcucumber/cucumber-protractor-harness-master/features/EDFold.feature",
+          "line": 27,
+          "column": 1
+        }
+      }
+    ],
+    "duration": null
+  },
+  {
+    "description": "Select an Ingredient from List of Ingredients",
+    "assertions": [],
+    "events": [
+      {
+        "emitterEvent": "testPass",
+        "name": "Given I am on the \"My Recipes Online\" page",
+        "category": "My Recipes Online Ingredients detail card: Select an Ingredient from List of Ingredients",
+        "sourceLocation": {
+          "filePath": "/Users/kwameakuffo/workspace/protractorcucumber/cucumber-protractor-harness-master/features/EDFold.feature",
+          "line": 4,
+          "column": 1
+        }
+      },
+      {
+        "emitterEvent": "testPass",
+        "name": "And I am shown \"HOME\" tab",
+        "category": "My Recipes Online Ingredients detail card: Select an Ingredient from List of Ingredients",
+        "sourceLocation": {
+          "filePath": "/Users/kwameakuffo/workspace/protractorcucumber/cucumber-protractor-harness-master/features/EDFold.feature",
+          "line": 5,
+          "column": 1
+        }
+      },
+      {
+        "emitterEvent": "testPass",
+        "name": "And I am shown \"INGREDIENTS\" tab",
+        "category": "My Recipes Online Ingredients detail card: Select an Ingredient from List of Ingredients",
+        "sourceLocation": {
+          "filePath": "/Users/kwameakuffo/workspace/protractorcucumber/cucumber-protractor-harness-master/features/EDFold.feature",
+          "line": 6,
+          "column": 1
+        }
+      },
+      {
+        "emitterEvent": "testPass",
+        "name": "When I click the \"INGREDIENTS\" tab",
+        "category": "My Recipes Online Ingredients detail card: Select an Ingredient from List of Ingredients",
+        "sourceLocation": {
+          "filePath": "/Users/kwameakuffo/workspace/protractorcucumber/cucumber-protractor-harness-master/features/EDFold.feature",
+          "line": 23,
+          "column": 1
+        }
+      },
+      {
+        "emitterEvent": "testPass",
+        "name": "Then Ingredients List is shown",
+        "category": "My Recipes Online Ingredients detail card: Select an Ingredient from List of Ingredients",
+        "sourceLocation": {
+          "filePath": "/Users/kwameakuffo/workspace/protractorcucumber/cucumber-protractor-harness-master/features/EDFold.feature",
+          "line": 24,
+          "column": 1
+        }
+      },
+      {
+        "emitterEvent": "testPass",
+        "name": "When I click \"apple\" from the Ingredient List",
+        "category": "My Recipes Online Ingredients detail card: Select an Ingredient from List of Ingredients",
+        "sourceLocation": {
+          "filePath": "/Users/kwameakuffo/workspace/protractorcucumber/cucumber-protractor-harness-master/features/EDFold.feature",
+          "line": 25,
+          "column": 1
+        }
+      },
+      {
+        "emitterEvent": "testPass",
+        "name": "Then I am shown the Ingredients Detail Card",
+        "category": "My Recipes Online Ingredients detail card: Select an Ingredient from List of Ingredients",
+        "sourceLocation": {
+          "filePath": "/Users/kwameakuffo/workspace/protractorcucumber/cucumber-protractor-harness-master/features/EDFold.feature",
+          "line": 26,
+          "column": 1
+        }
+      },
+      {
+        "emitterEvent": "testPass",
+        "name": "And Ingredients Detail card shows \"apple\"",
+        "category": "My Recipes Online Ingredients detail card: Select an Ingredient from List of Ingredients",
+        "sourceLocation": {
+          "filePath": "/Users/kwameakuffo/workspace/protractorcucumber/cucumber-protractor-harness-master/features/EDFold.feature",
+          "line": 27,
+          "column": 1
+        }
+      }
+    ],
+    "duration": null
+  },
+  {
+    "description": "TEST 1",
+    "assertions": [],
+    "events": [
+      {
+        "emitterEvent": "testPass",
+        "name": "Given I am on the \"My Recipes Online\" page",
+        "category": "My Recipes Online Ingredients detail card: TEST 1",
+        "sourceLocation": {
+          "filePath": "/Users/kwameakuffo/workspace/protractorcucumber/cucumber-protractor-harness-master/features/RecipesOnline.feature",
+          "line": 4,
+          "column": 1
+        }
+      },
+      {
+        "emitterEvent": "testPass",
+        "name": "And I am shown \"HOME\" tab",
+        "category": "My Recipes Online Ingredients detail card: TEST 1",
+        "sourceLocation": {
+          "filePath": "/Users/kwameakuffo/workspace/protractorcucumber/cucumber-protractor-harness-master/features/RecipesOnline.feature",
+          "line": 5,
+          "column": 1
+        }
+      },
+      {
+        "emitterEvent": "testPass",
+        "name": "And I am shown \"INGREDIENTS\" tab",
+        "category": "My Recipes Online Ingredients detail card: TEST 1",
+        "sourceLocation": {
+          "filePath": "/Users/kwameakuffo/workspace/protractorcucumber/cucumber-protractor-harness-master/features/RecipesOnline.feature",
+          "line": 6,
+          "column": 1
+        }
+      },
+      {
+        "emitterEvent": "testPass",
+        "name": "Given I go to \"https://the-internet.herokuapp.com\"",
+        "category": "My Recipes Online Ingredients detail card: TEST 1",
+        "sourceLocation": {
+          "filePath": "/Users/kwameakuffo/workspace/protractorcucumber/cucumber-protractor-harness-master/features/RecipesOnline.feature",
+          "line": 9,
+          "column": 1
+        }
+      },
+      {
+        "emitterEvent": "testPass",
+        "name": "When I click \"The Internet\"",
+        "category": "My Recipes Online Ingredients detail card: TEST 1",
+        "sourceLocation": {
+          "filePath": "/Users/kwameakuffo/workspace/protractorcucumber/cucumber-protractor-harness-master/features/RecipesOnline.feature",
+          "line": 10,
+          "column": 1
+        }
+      },
+      {
+        "emitterEvent": "testPass",
+        "name": "Then I am shown \"Challenging DOM\" page title",
+        "category": "My Recipes Online Ingredients detail card: TEST 1",
+        "sourceLocation": {
+          "filePath": "/Users/kwameakuffo/workspace/protractorcucumber/cucumber-protractor-harness-master/features/RecipesOnline.feature",
+          "line": 11,
+          "column": 1
+        }
+      }
+    ],
+    "duration": null
+  },
+  {
+    "description": "List Ingredients",
+    "assertions": [],
+    "events": [
+      {
+        "emitterEvent": "testPass",
+        "name": "Given I am on the \"My Recipes Online\" page",
+        "category": "My Recipes Online Ingredients detail card: List Ingredients",
+        "sourceLocation": {
+          "filePath": "/Users/kwameakuffo/workspace/protractorcucumber/cucumber-protractor-harness-master/features/RecipesOnline.feature",
+          "line": 4,
+          "column": 1
+        }
+      },
+      {
+        "emitterEvent": "testPass",
+        "name": "And I am shown \"HOME\" tab",
+        "category": "My Recipes Online Ingredients detail card: List Ingredients",
+        "sourceLocation": {
+          "filePath": "/Users/kwameakuffo/workspace/protractorcucumber/cucumber-protractor-harness-master/features/RecipesOnline.feature",
+          "line": 5,
+          "column": 1
+        }
+      },
+      {
+        "emitterEvent": "testPass",
+        "name": "And I am shown \"INGREDIENTS\" tab",
+        "category": "My Recipes Online Ingredients detail card: List Ingredients",
+        "sourceLocation": {
+          "filePath": "/Users/kwameakuffo/workspace/protractorcucumber/cucumber-protractor-harness-master/features/RecipesOnline.feature",
+          "line": 6,
+          "column": 1
+        }
+      },
+      {
+        "emitterEvent": "testPass",
+        "name": "When I click the \"INGREDIENTS\" tab",
+        "category": "My Recipes Online Ingredients detail card: List Ingredients",
+        "sourceLocation": {
+          "filePath": "/Users/kwameakuffo/workspace/protractorcucumber/cucumber-protractor-harness-master/features/RecipesOnline.feature",
+          "line": 14,
+          "column": 1
+        }
+      },
+      {
+        "emitterEvent": "testPass",
+        "name": "Then Ingredients List is shown",
+        "category": "My Recipes Online Ingredients detail card: List Ingredients",
+        "sourceLocation": {
+          "filePath": "/Users/kwameakuffo/workspace/protractorcucumber/cucumber-protractor-harness-master/features/RecipesOnline.feature",
+          "line": 15,
+          "column": 1
+        }
+      },
+      {
+        "emitterEvent": "testPass",
+        "name": "And Ingredients items include \"cinnamon\"",
+        "category": "My Recipes Online Ingredients detail card: List Ingredients",
+        "sourceLocation": {
+          "filePath": "/Users/kwameakuffo/workspace/protractorcucumber/cucumber-protractor-harness-master/features/RecipesOnline.feature",
+          "line": 16,
+          "column": 1
+        }
+      }
+    ],
+    "duration": null
+  },
+  {
+    "description": "List Ingredients",
+    "assertions": [],
+    "events": [
+      {
+        "emitterEvent": "testPass",
+        "name": "Given I am on the \"My Recipes Online\" page",
+        "category": "My Recipes Online Ingredients detail card: List Ingredients",
+        "sourceLocation": {
+          "filePath": "/Users/kwameakuffo/workspace/protractorcucumber/cucumber-protractor-harness-master/features/RecipesOnline.feature",
+          "line": 4,
+          "column": 1
+        }
+      },
+      {
+        "emitterEvent": "testPass",
+        "name": "And I am shown \"HOME\" tab",
+        "category": "My Recipes Online Ingredients detail card: List Ingredients",
+        "sourceLocation": {
+          "filePath": "/Users/kwameakuffo/workspace/protractorcucumber/cucumber-protractor-harness-master/features/RecipesOnline.feature",
+          "line": 5,
+          "column": 1
+        }
+      },
+      {
+        "emitterEvent": "testPass",
+        "name": "And I am shown \"INGREDIENTS\" tab",
+        "category": "My Recipes Online Ingredients detail card: List Ingredients",
+        "sourceLocation": {
+          "filePath": "/Users/kwameakuffo/workspace/protractorcucumber/cucumber-protractor-harness-master/features/RecipesOnline.feature",
+          "line": 6,
+          "column": 1
+        }
+      },
+      {
+        "emitterEvent": "testPass",
+        "name": "When I click the \"INGREDIENTS\" tab",
+        "category": "My Recipes Online Ingredients detail card: List Ingredients",
+        "sourceLocation": {
+          "filePath": "/Users/kwameakuffo/workspace/protractorcucumber/cucumber-protractor-harness-master/features/RecipesOnline.feature",
+          "line": 14,
+          "column": 1
+        }
+      },
+      {
+        "emitterEvent": "testPass",
+        "name": "Then Ingredients List is shown",
+        "category": "My Recipes Online Ingredients detail card: List Ingredients",
+        "sourceLocation": {
+          "filePath": "/Users/kwameakuffo/workspace/protractorcucumber/cucumber-protractor-harness-master/features/RecipesOnline.feature",
+          "line": 15,
+          "column": 1
+        }
+      },
+      {
+        "emitterEvent": "testPass",
+        "name": "And Ingredients items include \"apple\"",
+        "category": "My Recipes Online Ingredients detail card: List Ingredients",
+        "sourceLocation": {
+          "filePath": "/Users/kwameakuffo/workspace/protractorcucumber/cucumber-protractor-harness-master/features/RecipesOnline.feature",
+          "line": 16,
+          "column": 1
+        }
+      }
+    ],
+    "duration": null
+  },
+  {
+    "description": "Select an Ingredient from List of Ingredients",
+    "assertions": [],
+    "events": [
+      {
+        "emitterEvent": "testPass",
+        "name": "Given I am on the \"My Recipes Online\" page",
+        "category": "My Recipes Online Ingredients detail card: Select an Ingredient from List of Ingredients",
+        "sourceLocation": {
+          "filePath": "/Users/kwameakuffo/workspace/protractorcucumber/cucumber-protractor-harness-master/features/RecipesOnline.feature",
+          "line": 4,
+          "column": 1
+        }
+      },
+      {
+        "emitterEvent": "testPass",
+        "name": "And I am shown \"HOME\" tab",
+        "category": "My Recipes Online Ingredients detail card: Select an Ingredient from List of Ingredients",
+        "sourceLocation": {
+          "filePath": "/Users/kwameakuffo/workspace/protractorcucumber/cucumber-protractor-harness-master/features/RecipesOnline.feature",
+          "line": 5,
+          "column": 1
+        }
+      },
+      {
+        "emitterEvent": "testPass",
+        "name": "And I am shown \"INGREDIENTS\" tab",
+        "category": "My Recipes Online Ingredients detail card: Select an Ingredient from List of Ingredients",
+        "sourceLocation": {
+          "filePath": "/Users/kwameakuffo/workspace/protractorcucumber/cucumber-protractor-harness-master/features/RecipesOnline.feature",
+          "line": 6,
+          "column": 1
+        }
+      },
+      {
+        "emitterEvent": "testPass",
+        "name": "When I click the \"INGREDIENTS\" tab",
+        "category": "My Recipes Online Ingredients detail card: Select an Ingredient from List of Ingredients",
+        "sourceLocation": {
+          "filePath": "/Users/kwameakuffo/workspace/protractorcucumber/cucumber-protractor-harness-master/features/RecipesOnline.feature",
+          "line": 23,
+          "column": 1
+        }
+      },
+      {
+        "emitterEvent": "testPass",
+        "name": "Then Ingredients List is shown",
+        "category": "My Recipes Online Ingredients detail card: Select an Ingredient from List of Ingredients",
+        "sourceLocation": {
+          "filePath": "/Users/kwameakuffo/workspace/protractorcucumber/cucumber-protractor-harness-master/features/RecipesOnline.feature",
+          "line": 24,
+          "column": 1
+        }
+      },
+      {
+        "emitterEvent": "testPass",
+        "name": "When I click \"cinnamon\" from the Ingredient List",
+        "category": "My Recipes Online Ingredients detail card: Select an Ingredient from List of Ingredients",
+        "sourceLocation": {
+          "filePath": "/Users/kwameakuffo/workspace/protractorcucumber/cucumber-protractor-harness-master/features/RecipesOnline.feature",
+          "line": 25,
+          "column": 1
+        }
+      },
+      {
+        "emitterEvent": "testPass",
+        "name": "Then I am shown the Ingredients Detail Card",
+        "category": "My Recipes Online Ingredients detail card: Select an Ingredient from List of Ingredients",
+        "sourceLocation": {
+          "filePath": "/Users/kwameakuffo/workspace/protractorcucumber/cucumber-protractor-harness-master/features/RecipesOnline.feature",
+          "line": 26,
+          "column": 1
+        }
+      },
+      {
+        "emitterEvent": "testPass",
+        "name": "And Ingredients Detail card shows \"cinnamon\"",
+        "category": "My Recipes Online Ingredients detail card: Select an Ingredient from List of Ingredients",
+        "sourceLocation": {
+          "filePath": "/Users/kwameakuffo/workspace/protractorcucumber/cucumber-protractor-harness-master/features/RecipesOnline.feature",
+          "line": 27,
+          "column": 1
+        }
+      }
+    ],
+    "duration": null
+  },
+  {
+    "description": "Select an Ingredient from List of Ingredients",
+    "assertions": [],
+    "events": [
+      {
+        "emitterEvent": "testPass",
+        "name": "Given I am on the \"My Recipes Online\" page",
+        "category": "My Recipes Online Ingredients detail card: Select an Ingredient from List of Ingredients",
+        "sourceLocation": {
+          "filePath": "/Users/kwameakuffo/workspace/protractorcucumber/cucumber-protractor-harness-master/features/RecipesOnline.feature",
+          "line": 4,
+          "column": 1
+        }
+      },
+      {
+        "emitterEvent": "testPass",
+        "name": "And I am shown \"HOME\" tab",
+        "category": "My Recipes Online Ingredients detail card: Select an Ingredient from List of Ingredients",
+        "sourceLocation": {
+          "filePath": "/Users/kwameakuffo/workspace/protractorcucumber/cucumber-protractor-harness-master/features/RecipesOnline.feature",
+          "line": 5,
+          "column": 1
+        }
+      },
+      {
+        "emitterEvent": "testPass",
+        "name": "And I am shown \"INGREDIENTS\" tab",
+        "category": "My Recipes Online Ingredients detail card: Select an Ingredient from List of Ingredients",
+        "sourceLocation": {
+          "filePath": "/Users/kwameakuffo/workspace/protractorcucumber/cucumber-protractor-harness-master/features/RecipesOnline.feature",
+          "line": 6,
+          "column": 1
+        }
+      },
+      {
+        "emitterEvent": "testPass",
+        "name": "When I click the \"INGREDIENTS\" tab",
+        "category": "My Recipes Online Ingredients detail card: Select an Ingredient from List of Ingredients",
+        "sourceLocation": {
+          "filePath": "/Users/kwameakuffo/workspace/protractorcucumber/cucumber-protractor-harness-master/features/RecipesOnline.feature",
+          "line": 23,
+          "column": 1
+        }
+      },
+      {
+        "emitterEvent": "testPass",
+        "name": "Then Ingredients List is shown",
+        "category": "My Recipes Online Ingredients detail card: Select an Ingredient from List of Ingredients",
+        "sourceLocation": {
+          "filePath": "/Users/kwameakuffo/workspace/protractorcucumber/cucumber-protractor-harness-master/features/RecipesOnline.feature",
+          "line": 24,
+          "column": 1
+        }
+      },
+      {
+        "emitterEvent": "testPass",
+        "name": "When I click \"apple\" from the Ingredient List",
+        "category": "My Recipes Online Ingredients detail card: Select an Ingredient from List of Ingredients",
+        "sourceLocation": {
+          "filePath": "/Users/kwameakuffo/workspace/protractorcucumber/cucumber-protractor-harness-master/features/RecipesOnline.feature",
+          "line": 25,
+          "column": 1
+        }
+      },
+      {
+        "emitterEvent": "testPass",
+        "name": "Then I am shown the Ingredients Detail Card",
+        "category": "My Recipes Online Ingredients detail card: Select an Ingredient from List of Ingredients",
+        "sourceLocation": {
+          "filePath": "/Users/kwameakuffo/workspace/protractorcucumber/cucumber-protractor-harness-master/features/RecipesOnline.feature",
+          "line": 26,
+          "column": 1
+        }
+      },
+      {
+        "emitterEvent": "testPass",
+        "name": "And Ingredients Detail card shows \"apple\"",
+        "category": "My Recipes Online Ingredients detail card: Select an Ingredient from List of Ingredients",
+        "sourceLocation": {
+          "filePath": "/Users/kwameakuffo/workspace/protractorcucumber/cucumber-protractor-harness-master/features/RecipesOnline.feature",
+          "line": 27,
+          "column": 1
+        }
+      }
+    ],
+    "duration": null
   }
 ]
