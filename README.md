@@ -12,10 +12,10 @@ Script to run can be included into gulp script, but not done for demo
 # INSTRUCTIONS
 Write a cucumber feature file given the following scenario
 
-####Background
+###Background
 The user has logged in
 
-####Scenario:       
+###Scenario:       
     The user can see a specific ingredient in the ingredients detail card
 
 Given the user can see the ingredients tab
@@ -23,9 +23,9 @@ And the user clicks on the ingredients tab
 Then the user can see the ingredients list
 the user can see cinnamon in the ingredients list items And the user clicks on the cinnamon item from the ingredients list Then the user can seen in the ingredients detail card
 
-####How will you change the previous feature file to support more than 1 ingredient (e.g. cinnamon, apples)
+###How will you change the previous feature file to support more than 1 ingredient (e.g. cinnamon, apples)
 
-####Write the implementation of the steps for the scenario in question 1
+###Write the implementation of the steps for the scenario in question 1
 
 Feature: My Recipes Online Ingredients detail card
   
@@ -36,10 +36,10 @@ Feature: My Recipes Online Ingredients detail card
     And I am shown "HOME" tab
     And I am shown "INGREDIENTS" tab
  
-####WHAT WE DON'T LIKE
+###WHAT WE DON'T LIKE
 How will you change the previous feature file to support more than 1 ingredient (e.g. cinnamon, apples)
 
-#### Feature: My Recipes Online Ingredients detail card
+###Feature: My Recipes Online Ingredients detail card
     
     Background:
     Given I go to "https://recipesOnline.com"
@@ -57,8 +57,8 @@ How will you change the previous feature file to support more than 1 ingredient 
       |apple      |
 
 
-#####change the previous feature file to support more than 1 ingredien
-#####(e.g. cinnamon, apples)
+###change the previous feature file to support more than 1 ingredien
+###(e.g. cinnamon, apples)
 ````
     defineSupportCode( function( { Given, When, Then }) 
        {
@@ -68,28 +68,28 @@ How will you change the previous feature file to support more than 1 ingredient 
     expect(browser.get(site));
   });
   ````
-####My Recipes Online:
+###My Recipes Online:
 Given the steps implementation below for a specific scenario, what
 kind of improvements could be made?
 
-####Improvement opportunity:
+###Improvement opportunity:
 The first improvement opportunity identified from the attached is the
 need for browser.close()
 
-####Encapsulate:
+###Encapsulate:
 The second improvement opportunity is the realisation of encapsulation
 with the Page Objects anti pattern
 
-####Parameterisation:
+###Parameterisation:
 Parameterised in software development is a powerful technique for the reliable reuse of software. In this technique, modules are parameterized, and the the data used for the modules are separated
 from the test step definitiosn, also improving collaboration. 
 
-####Parameterisation:
+###Parameterisation:
 Test data used in any parameterisation effort 
 ``
 checkContainsText('element','//*[@class="vmd-card-actions"]/ion-button[text()="Pass"]', false, 'PASS')
 ``
-######waitForVisible
+###waitForVisible
 Using the promise technique for synchronisation, and check-point will improve the test execution.
 ``
 ('/html/body/app-root/ion-app/ion-router-outlet/
